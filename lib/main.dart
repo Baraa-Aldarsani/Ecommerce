@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:e_commerce/helper/binding.dart';
 import 'package:e_commerce/view/home.dart';
 import 'package:e_commerce/view/control_view.dart';
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
       initialBinding: Binding(),
       home: Scaffold(body: ControView()),
       routes:{
-        "Home": ((context) => Home()),
+        "Home": ((context) => const Home()),
       } ,
     );
   }

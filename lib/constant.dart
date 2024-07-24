@@ -1,11 +1,13 @@
+// ignore_for_file: constant_identifier_names
+
 import 'package:flutter/material.dart';
 
-final String tableCartProduct = 'cartProduct';
-final String columnName = 'name';
-final String columnImage = 'image';
-final String columnPrice = 'price';
-final String columnQuantity = 'quantity';
-final String columnProductId = 'productId';
+const String tableCartProduct = 'cartProduct';
+const String columnName = 'name';
+const String columnImage = 'image';
+const String columnPrice = 'price';
+const String columnQuantity = 'quantity';
+const String columnProductId = 'productId';
 
 var primaryColor = const Color.fromRGBO(0, 197, 105, 1);
 
